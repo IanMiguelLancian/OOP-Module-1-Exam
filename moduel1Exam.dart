@@ -1,6 +1,7 @@
 // This is an example of a abstraction, where user(Seller and customer)
 // has their own account and designated site and only them can access it.
-class User {
+
+class User { // The class User and person is an encapsulation. Where the properties and methods inside the class were encapsulated.
   String uName;
   String pWord;
   
@@ -36,7 +37,7 @@ void main() {
 
 //This is an example of an inheritance where a class(boy) got access from other 
 //classes, in this case the class(person).
-class Person {
+class Person { // The class User and person is an encapsulation. Where the properties and methods inside the class were encapsulated.
   
   void select(){
     print('selecting...');
