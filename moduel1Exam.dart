@@ -7,7 +7,7 @@ class User {
   checkUser() {
     print('Checking user...');
   }
-  //Encapsulation
+  
   wUser(){
     print('Please wait');
     if(uName == 'Seller') {
@@ -51,27 +51,15 @@ class Person {
   }
 }
 class Boy extends Person {
-  
+  @override // This is an example of an polymorphism
+  void cc() {
+    print('The Customer has cancelled');
+  }
 }
-  
+
 void main() {
   Boy miguel = Boy();
   miguel.select();
   miguel.browse();
   miguel.add();
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
